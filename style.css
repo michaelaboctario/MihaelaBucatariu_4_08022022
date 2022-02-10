@@ -655,7 +655,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 2200px;
 }
 
 .hero-bloc-text {
@@ -719,7 +719,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
+    max-width: 1600px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
