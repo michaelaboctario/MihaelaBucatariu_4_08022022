@@ -677,7 +677,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
+
 }
 
 .tight-width-whitespace {
@@ -706,7 +707,8 @@ p {
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
+    line-height: 1.6em;
+    padding: 40px 0;
 }
 
 h3 {
