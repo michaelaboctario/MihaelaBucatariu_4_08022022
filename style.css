@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -136,11 +135,14 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+.d-bloc a .icon-md {
+    color: rgba(7, 7, 7, 0.9);
+}
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -151,6 +153,10 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+}
+
+.d-bloc a:hover .icon-md {
+    color: rgba(71, 70, 70, 0.6);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -651,7 +657,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /* color: #575757!important; */
+    color: #040404!important;
 }
 
 .container {
@@ -741,6 +748,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.text-footer {
+    color: #080808!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
     width: 300px;
@@ -785,12 +796,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #0f0f0f!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #e6865a!important;
+    color: #3a3939!important;
 }
 
 .ltc-white {
