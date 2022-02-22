@@ -309,7 +309,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 40px;
+    width: 214px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -367,6 +368,11 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.image-resize-mode {
+    width: 100px;
+    height: 100px;
 }
 
 @media (min-width: 768px) {
@@ -978,10 +984,6 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
-    }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
     }
     .nav-invert .navbar-header {
         float: none;
