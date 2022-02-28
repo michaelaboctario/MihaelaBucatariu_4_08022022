@@ -828,26 +828,15 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
-/* 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.webp");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.webp");
-}
- */
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere-desktop.webp");
     background-size: cover;
-    background-color: #e6865a;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation-desktop.webp");
     background-size: cover;
-    background-color: #e6865a;
 }
 
 .img-responsive {
@@ -1071,8 +1060,10 @@ h4 {
     }
     .bg-banniere {
         background-image: url("img/la-chouette-agence-banniere-mobile.webp");
+        background-size: cover;
     }
     .bg-presentation {
         background-image: url("img/image-de-presentation-mobile.webp");
+        background-size: cover;
     }
 }
